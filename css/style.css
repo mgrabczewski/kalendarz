@@ -1,0 +1,97 @@
+.rozrywka {
+  background-color: #ccc;
+  border: 1px solid #999;
+  margin-top: 5px;
+  box-shadow: 3px 3px 3px #999;
+  color: #fff;
+  font-weight: bold;
+  padding:  5px;
+}
+.sport{
+  background-color: green;
+  border: 1px solid #999;
+  margin-top: 5px;
+  box-shadow: 3px 3px 3px #999;
+  color: #fff;
+  font-weight: bold;
+  padding:  5px;
+}
+.praca {
+  background-color: red;
+  border: 1px solid #999;
+  margin-top: 5px;
+  box-shadow: 3px 3px 3px #999;
+  color: #fff;
+  font-weight: bold;
+  padding:  5px;
+}
+.nauka {
+  background-color: blue;
+  border: 1px solid #999;
+  margin-top: 5px;
+  box-shadow: 3px 3px 3px #999;
+  color: #fff;
+  font-weight: bold;
+  padding:  5px;
+}
+.tg  {border-collapse:collapse;border-spacing:0; margin-left: auto; margin-right: auto;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-84g4{font-size:18px;vertical-align:top; width: 175px;}
+.tg .tg-v8dz{border-color:inherit;font-size:24px;text-align:left;vertical-align:top}
+.tg .tg-0lax{font-size: 18px;}
+.tg .tg-0pky{font-size: 20px; font-weight: bolder;}
+.error{ color: red}
+
+.button-59 {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-59:focus {
+  color: #171e29;
+}
+
+.button-59:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.button-59:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 170px;
+  }
+}
