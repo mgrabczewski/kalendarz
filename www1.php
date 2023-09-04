@@ -3,8 +3,7 @@ session_start();
 if(isset($_SESSION['logintrue'])&&($_SESSION['logintrue']==true)){
   header('Location: plan.php');
   exit();
-}
-echo 'PHP version: ' . phpversion();
+};
 ?>
 
 <html lang="pl">
@@ -12,11 +11,11 @@ echo 'PHP version: ' . phpversion();
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible"content="IE=edge,chrome=1"/>
   <title>Plan tygodnia</title>
-  <link rel="stylesheet" href="http://localhost/skrypty/kalendarz/jquery/jquery-ui.min.css">
-  <script src="http://localhost/skrypty/kalendarz/js/jquery-3.6.0.js"></script>
-  <script src="http://localhost/skrypty/kalendarz/js/skrypt.js"></script>
-  <script src="http://localhost/skrypty/kalendarz/jquery/jquery-ui.min.js"></script>
-  <script src="http://localhost/skrypty/kalendarz/js/jquery-ui.js"></script>
+  <link rel="stylesheet" href="jquery/jquery-ui.min.css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/skrypt.js"></script>
+  <script src="jquery/jquery-ui.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
   <link href="css/style.css" rel="stylesheet" type="text/css" />
 
 </head>
